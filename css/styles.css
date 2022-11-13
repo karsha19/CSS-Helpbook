@@ -1,0 +1,49 @@
+body {
+    background-color: #222831;
+}
+
+#page-heading {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+hr {   
+    border-style: dotted none none none;
+    border-width: 4px;
+    border-color: grey;
+    width: 90%;
+}
+
+#main-list {
+    margin-inline-start: 80px;
+}
+
+::marker {
+    color: #00ADB5;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.list-title {
+    color: #00ADB5;
+}
+
+.list-description {
+    color: #EEEEEE;
+}
+
+.list-code {
+    color: #EEEEEE;
+    background-color: #393E46;
+    padding: 20px;
+    padding-inline-start: 30px;
+    padding-inline-end: 25px;
+    border-radius: 5px;
+    margin-inline-start: 25px;
+    display: inline-block;
+    /* margin-inline-end: 75px; */
+}
+
+a {
+    color: cyan;
+}
