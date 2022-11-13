@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website that contains all the CSS taught in Web Development Bootcamp by Dr. Angela Yu"
+    />
+    <title>CSS Helpbook</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 id="page-heading">CSS Helpbook</h1>
+    <hr />
+    <ol id="main-list">
+      <li id="1.InlineCSS">
+        <h2 class="list-title">Inline CSS</h2>
+
+        <p class="list-description">
+          Inline CSS is the most basic way to style an HTML element. It is
+          applied directly to the HTML element using the style attribute.
+        </p>
+        <p class="list-description">
+          Inline CSS is not recommended because it is not reusable and it
+          clutters the HTML code.
+        </p>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+&lt;h1 style="color: red;"&gt;Hello World&lt;/h1&gt;</pre
+        >
+      </li>
+
+      <li id="2.InternalCSS">
+        <h2 class="list-title">Internal CSS</h2>
+
+        <p class="list-description">
+          Internal CSS is a way to style an HTML element by using the style
+          element inside the head element.
+        </p>
+        <p class="list-description">
+          Internal CSS is not recommended because it is not reusable and it
+          clutters the HTML code.
+        </p>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+&lt;head&gt;
+  &lt;style&gt;
+    h1 {
+      color: red;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;</pre
+        >
+      </li>
+
+      <li id="3.ExternalCSS">
+        <h2 class="list-title">External CSS</h2>
+
+        <p class="list-description">
+          External CSS is a way to style an HTML element by using a separate CSS
+          file.
+        </p>
+        <p class="list-description">
+          External CSS is recommended because it is reusable and it does not
+          clutter the HTML code.
+        </p>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css" /&gt;
+&lt;/head&gt;</pre
+        >
+      </li>
+
+      <li id="4.CSS-Syntax">
+        <h2 class="list-title">CSS Syntax</h2>
+
+        <p class="list-description">
+          CSS Syntax is the way to write CSS code. It is made up of selectors
+          and declarations.
+        </p>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+selector {
+  property: value;
+}</pre
+        >
+      </li>
+
+      <li id="5.CSS-Selectors">
+        <h2 class="list-title">CSS Selectors</h2>
+
+        <p class="list-description">
+          CSS Selectors are used to select the HTML element that you want to
+          style.
+        </p>
+        <p class="list-description">Selectors available in CSS are:</p>
+        <ul class="list-description">
+          <li>Classes</li>
+          <li>IDs</li>
+        </ul>
+        <p class="list-description">
+          For more information on CSS Selectors:
+          <a href="https://devdocs.io/css/css_selectors">Devdocs.io</a>
+        </p>
+
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+/* Classes */
+.class {
+  property: value;
+}
+
+/* IDs */
+#id {
+  property: value;
+}</pre
+        >
+      </li>
+
+      <li id="6.Favicons">
+        <h2 class="list-title">Favicons</h2>
+
+        <p class="list-description">
+          Favicons are the small icons that appear on the browser tab.
+        </p>
+        <p class="list-description">
+          Favicons are created using the
+          <a href="https://favicon.io/favicon-converter/">Favicon.io</a> tool.
+        </p>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+&lt;head&gt;
+  &lt;link rel="icon" href="favicon.ico" /&gt;
+&lt;/head&gt;</pre
+        >
+      </li>
+
+    </ol>
+  </body>
+</html>
