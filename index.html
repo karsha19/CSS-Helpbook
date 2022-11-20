@@ -1,3 +1,4 @@
+<!-- Color pallet used : https://colorhunt.co/palette/222831393e4600adb5eeeeee -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,8 +31,7 @@
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-&lt;h1 style="color: red;"&gt;Hello World&lt;/h1&gt;</pre
-        >
+<code>&lt;h1 style="color: red;"&gt;Hello World&lt;/h1&gt;</code></pre>
       </li>
 
       <li id="2.InternalCSS">
@@ -49,14 +49,14 @@
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-&lt;head&gt;
+<code>&lt;head&gt;
   &lt;style&gt;
     h1 {
       color: red;
     }
   &lt;/style&gt;
-&lt;/head&gt;</pre
-        >
+&lt;/head&gt;
+</code></pre>
       </li>
 
       <li id="3.ExternalCSS">
@@ -74,10 +74,10 @@
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-&lt;head&gt;
+<code>&lt;head&gt;
   &lt;link rel="stylesheet" href="styles.css" /&gt;
-&lt;/head&gt;</pre
-        >
+&lt;/head&gt;
+</code></pre>
       </li>
 
       <li id="4.CSS-Syntax">
@@ -91,10 +91,10 @@
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-selector {
+<code>selector {
   property: value;
-}</pre
-        >
+}
+</code></pre>
       </li>
 
       <li id="5.CSS-Selectors">
@@ -118,7 +118,7 @@ selector {
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-/* Classes */
+<code>/* Classes */
 .class {
   property: value;
 }
@@ -126,8 +126,8 @@ selector {
 /* IDs */
 #id {
   property: value;
-}</pre
-        >
+}
+</code></pre>
       </li>
 
       <li id="6.Favicons">
@@ -144,12 +144,118 @@ selector {
           <strong>Example:</strong>
         </p>
         <pre class="list-code">
-&lt;head&gt;
+<code>&lt;head&gt;
   &lt;link rel="icon" href="favicon.ico" /&gt;
-&lt;/head&gt;</pre
-        >
+&lt;/head&gt;</code></pre>
       </li>
 
+      <li id="7.DisplayProperty">
+        <h2 class="list-title">CSS:Display Property</h2>
+
+        <p class="list-description">
+          The display property specifies the display behavior (the type of
+          rendering box) of an element.
+        </p>
+        <p class="list-description">
+          The display property can take the following values:
+        </p>
+        <ul class="list-description">
+          <li>block</li>
+          <li>inline</li>
+          <li>inline-block</li>
+          <li>none</li>
+        </ul>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+<code>/* block */
+h1 {
+  display: block;
+}
+
+/* inline */
+h1 {
+  display: inline;
+}
+
+/* inline-block */
+h1 {
+  display: inline-block;
+}
+
+/* none */
+h1 {
+  display: none;
+}</code></pre>
+
+        <p class="list-description">
+          <span class="sub-heading">Common Inline Elements</span><br /><br />
+          - Spans (&lt;span&gt;) <br />
+          - Images (&lt;img&gt;) <br />
+          - Anchors (&lt;a&gt;) <br />
+          - Buttons (&lt;button&gt;) <br />
+          - Inputs (&lt;input&gt;) <br />
+          - Textareas (&lt;textarea&gt;)
+        </p>
+
+        <p class="list-description">
+          <span class="sub-heading">Common Block Elements</span><br /><br />
+          - Divs (&lt;div&gt;) <br />
+          - Paragraphs (&lt;p&gt;) <br />
+          - Headers (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;,
+          &lt;h6&gt;) <br />
+          - Lists (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;) <br />
+          - Tables (&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;)
+        </p>
+      </li>
+
+      <li id="8.Positioning">
+        <h2 class="list-title">CSS:Positioning</h2>
+
+        <p class="list-description">
+          The position property specifies the type of positioning method used
+          for an element.
+        </p>
+        <p class="list-description">
+          The position property can take the following values:
+        </p>
+        <ul class="list-description">
+          <li>static</li>
+          <li>relative</li>
+          <li>absolute</li>
+          <li>fixed</li>
+          <li>sticky</li>
+        </ul>
+        <p class="list-description">
+          <strong>Example:</strong>
+        </p>
+        <pre class="list-code">
+<code>/* static */
+h1 {
+  position: static;
+}
+
+/* relative */
+h1 {
+  position: relative;
+}
+
+/* absolute */
+h1 {
+  position: absolute;
+}
+
+/* fixed */
+h1 {
+  position: fixed;
+}
+
+/* sticky */
+h1 {
+  position: sticky;
+}</code></pre>
+      </li>
     </ol>
   </body>
 </html>
